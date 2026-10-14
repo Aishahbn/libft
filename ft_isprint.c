@@ -6,11 +6,12 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:34:07 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/27 16:50:00 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 16:27:38 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 int	ft_isprint(int c)
 {
@@ -18,3 +19,12 @@ int	ft_isprint(int c)
 		return (1);
 	return (0);
 }
+/*int main(void)
+{
+	printf("A: %d\n", ft_isprint('A'));
+	printf("31: %d\n", ft_isprint(31));
+	printf("@: %d\n", ft_isprint('@'));
+	printf("127: %d\n", ft_isprint(127));
+	printf("space: %d\n", ft_isprint(' '));
+	return (0);
+}*/

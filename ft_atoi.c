@@ -6,11 +6,13 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:33:34 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/28 12:31:17 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 15:24:37 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 int	ft_atoi(const char *str)
 {
@@ -36,3 +38,11 @@ int	ft_atoi(const char *str)
 	}
 	return (result * sign);
 }
+
+/*int main(void)
+{
+	printf("%d\n", ft_atoi("123"));
+	printf("%d\n", ft_atoi("-42"));
+	printf("%d\n", ft_atoi("abcd"));
+
+}*/

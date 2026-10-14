@@ -6,11 +6,12 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:31:30 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/27 16:42:17 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 15:35:44 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 int	ft_isalpha(int c)
 {
@@ -18,3 +19,12 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
+/*int main(void)
+{
+	printf("A: %d\n", ft_isalpha('A'));
+	printf("5: %d\n", ft_isalpha('5'));
+	printf("@: %d\n", ft_isalpha('@'));
+	printf("0: %d\n", ft_isalpha('0'));
+	printf("space: %d\n", ft_isalpha(' '));
+	return (0);
+}*/

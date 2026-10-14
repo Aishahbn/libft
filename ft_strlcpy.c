@@ -6,20 +6,21 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:35:05 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/28 13:03:51 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 17:17:47 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 size_t	ft_strlcpy(char *dest, const char *src, size_t destsize)
 {
 	size_t	i;
 
 	i = 0;
-	if (size == 0)
+	if (destsize == 0)
 		return (ft_strlen(src));
-	while (i < size - 1 && src[i] != '\0')
+	while (i < destsize - 1 && src[i] != '\0')
 	{
 		dest[i] = src[i];
 		i++;
@@ -27,3 +28,11 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t destsize)
 	dest[i] = '\0';
 	return (ft_strlen(src));
 }
+/*int	main(void)
+{
+	char	dest[20];
+
+	printf("%zu\n", ft_strlcpy(dest, "Hello", sizeof(dest)));
+	printf("%s\n", dest);
+	return (0);
+}*/

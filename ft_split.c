@@ -6,7 +6,7 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 13:44:40 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/30 16:52:03 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 17:07:22 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -77,3 +77,21 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (ft_fill_split(lst, s, c));
 }
+/*int	main(void)
+{
+	char	**result;
+	int		i;
+
+	result = ft_split("Hello World 42", ' ');
+	if (result == NULL)
+		return (1);
+	i = 0;
+	while (result[i] != NULL)
+	{
+		printf("[%s]\n", result[i]);
+		free(result[i]);
+		i++;
+	}
+	free(result);
+	return (0);
+}*/

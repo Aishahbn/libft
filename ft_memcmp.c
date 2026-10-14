@@ -6,11 +6,12 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:34:13 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/28 12:35:19 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 16:55:31 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
@@ -29,3 +30,9 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+/*int main(void)
+{
+	printf("%d\n", ft_memcmp("fourty", "fourty", 6));
+	printf("%d\n", ft_memcmp("fourty", "two", 3));
+	return (0);
+}*/

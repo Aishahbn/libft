@@ -6,11 +6,12 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:35:21 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/28 13:07:19 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 17:21:57 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -27,3 +28,10 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return ((char *)last);
 }
+/*int	main(void)
+{
+	char	str[] = "Hello World";
+
+	printf("%s\n", ft_strrchr(str, 'o'));
+	return (0);
+}*/

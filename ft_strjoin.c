@@ -6,7 +6,7 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 12:09:09 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/29 12:09:47 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 17:12:44 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,12 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	result[i] = '\0';
 	return (result);
 }
+/*int main(void)
+{
+	char	*result;
+
+	result = ft_strjoin("Hello ", "World");
+	printf("%s\n", result);
+	free(result);
+	return (0);
+}*/

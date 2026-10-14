@@ -6,7 +6,7 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/29 12:12:28 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/29 13:23:35 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 17:20:04 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,3 +47,12 @@ char	*ft_strtrim(char const *s1, char const *set)
 	result[len] = '\0';
 	return (result);
 }
+/*int main(void)
+{
+	char	*result;
+
+	result = ft_strtrim("  Hello World  ", " ");
+	printf("[%s]\n", result);
+	free(result);
+	return (0);
+}*/

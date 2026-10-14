@@ -6,7 +6,7 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:35:10 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/27 16:55:25 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 17:11:41 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,11 @@ size_t	ft_strlen(const char *s)
 		i++;
 	return (i);
 }
+
+/*int main(void)
+{
+	printf("%zu\n", ft_strlen("Hello World"));
+	printf("%zu\n", ft_strlen(""));
+	printf("%zu\n", ft_strlen("42"));
+	return (0);
+}*/

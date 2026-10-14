@@ -6,11 +6,12 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:34:10 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/28 12:45:50 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 16:49:53 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
@@ -27,3 +28,11 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+/*int	main(void)
+{
+	char	str[] = "Hello World";
+
+	printf("%s\n", (char *)ft_memchr(str, 'W', 11));
+	return (0);
+}*/

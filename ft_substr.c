@@ -6,12 +6,13 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/28 14:34:21 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/28 15:59:24 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 17:23:47 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
@@ -33,3 +34,12 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[sub_len] = '\0';
 	return (sub);
 }
+/*int	main(void)
+{
+	char	*sub;
+
+	sub = ft_substr("Hello World", 6, 5);
+	printf("%s\n", sub);
+	free(sub);
+	return (0);
+}*/

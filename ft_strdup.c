@@ -6,12 +6,13 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:34:56 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/28 13:01:22 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 17:12:27 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 char	*ft_strdup(const char *s)
 {
@@ -25,3 +26,12 @@ char	*ft_strdup(const char *s)
 	ft_memcpy(copy, s, len + 1);
 	return (copy);
 }
+/*int	main(void)
+{
+	char	*copy;
+
+	copy = ft_strdup("Hello World");
+	printf("%s\n", copy);
+	free(copy);
+	return (0);
+}*/

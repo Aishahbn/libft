@@ -6,11 +6,12 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:33:59 by abaninas          #+#    #+#             */
-/*   Updated: 2026/09/27 16:54:55 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/12 15:42:18 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdio.h>
 
 int	ft_isascii(int c)
 {
@@ -18,3 +19,13 @@ int	ft_isascii(int c)
 		return (1);
 	return (0);
 }
+
+/*int main(void)
+{
+	printf("A: %d\n", ft_isascii('A'));
+	printf("0: %d\n", ft_isascii('0'));
+	printf("#: %d\n", ft_isascii('#'));
+	printf("128: %d\n", ft_isascii(128));
+	printf("space: %d\n", ft_isascii(' '));
+	printf("-1: %d\n", ft_isascii(-1));
+}*/
