@@ -6,7 +6,7 @@
 /*   By: abaninas <abaninas@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/09/27 16:34:38 by abaninas          #+#    #+#             */
-/*   Updated: 2026/10/21 16:31:08 by abaninas         ###   ########.fr       */
+/*   Updated: 2026/10/22 12:58:02 by abaninas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
+
 /*int	main(void)
 {
 	char	dest[20];
@@ -36,14 +37,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	printf("%s\n", dest);
 	return (0);
 }*/
-
-#include <stdio.h>
-int main(void)
-{
-	 char dest[6] ="raghad";
-	 char src[]="ggggg";
-	printf("%s\n", dest);
-	ft_memcpy(dest, src,sizeof(char));
-	printf("%s\n", dest);
-	return(0);
-}
